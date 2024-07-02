@@ -1,0 +1,3 @@
+gcc src/*.c -Iinc -I/usr/include/SDL2 -L/usr/lib -lSDL2 -lm -Wall -Werror -Wextra -pedantic -o maze
+
+./maze default
